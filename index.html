@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sweet Tea</title>
+    <style>
+      @font-face {
+        font-family: phenomena;
+        src: url("./public/Phenomena-Regular.woff");
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: phenomena, serif;
+      }
+      html {
+        height: 100%;
+      }
+      body {
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+      }
+      main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        max-height: 50%;
+        font-size: 10rem;
+        white-space: nowrap;
+      }
+      #logo {
+        display: flex;
+        height: 100%;
+        overflow: visible;
+      }
+      #logo img {
+        max-width: 20rem;
+        max-height: 100%;
+        padding-left: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div id="logo">
+        <img src="public/sweettea.svg" alt="Sweet Tea Logo" />
+      </div>
+      Sweet Tea
+    </main>
+  </body>
+</html>
